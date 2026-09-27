@@ -1,5 +1,5 @@
 import './style.css';import{places}from'./places.js';
-const root=document.querySelector('#app');let current='sst-new',selected=null,showPrompts=true,showDrafts=true,zoom=1,panX=0,panY=0,modal=false,saveToast=false;
+const root=document.querySelector('#app');let current='north-campus',selected=null,showPrompts=true,showDrafts=true,zoom=1,panX=0,panY=0,modal=false,saveToast=false;
 const clean=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const store=()=>{try{return JSON.parse(localStorage.getItem('campus-atlas-notes')||'[]')}catch{return []}};
 const allPins=p=>[...p.pins.map(x=>({...x,demo:true})),...store().filter(x=>x.place===p.id)];
