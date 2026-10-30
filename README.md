@@ -4,6 +4,8 @@ An interactive **schematic planner**, not a geographic or navigational map. Its 
 
 Visitors can switch the four places, click sample unverified pins, toggle layers, zoom/pan the schematic, add private notes and place their own browser-local draft pin. Pin coordinates are canvas positions, not GPS. Notes live in localStorage only. Nothing syncs.
 
+Live: https://aditya2375.github.io/campus-atlas/
+
 ## Run
 `npm install && npm run dev` then `npm run build`.
 
