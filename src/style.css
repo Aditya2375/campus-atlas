@@ -4,3 +4,5 @@
 
 /* demo-atlas live indicator */
 .atlas-live{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.14em;opacity:.55}
+
+.note-status{display:flex;align-items:center;flex-wrap:wrap;gap:20px;padding:18px clamp(20px,5vw,80px);margin:0;background:#e9eee4;font-size:13px;line-height:1.5}.note-status button{padding:10px;border:1px solid #18383b;background:transparent;color:#18383b}.pane-body h2,.pane-body p,.pin-list-item{overflow-wrap:anywhere;min-width:0}:focus-visible{outline:2px solid #b67732;outline-offset:4px}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
