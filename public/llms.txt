@@ -1,0 +1,5 @@
+# Campus Atlas
+
+https://aditya2375.github.io/campus-atlas/
+
+Schematic only. All geometry, paths, zones, locations and example pins are fictional, not GPS. Never use for navigation or building access. Personal notes stay in this browser and need JSON export backups. No external data connection.
